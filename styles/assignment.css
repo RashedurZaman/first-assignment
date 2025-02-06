@@ -1,0 +1,417 @@
+.fira-sans-thin {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .fira-sans-extralight {
+    font-family: "Fira Sans", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .fira-sans-light {
+    font-family: "Fira Sans", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .fira-sans-medium {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .fira-sans-semibold {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .fira-sans-bold {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .fira-sans-extrabold {
+    font-family: "Fira Sans", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .fira-sans-black {
+    font-family: "Fira Sans", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .fira-sans-thin-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .fira-sans-extralight-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .fira-sans-light-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .fira-sans-regular-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .fira-sans-medium-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .fira-sans-semibold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .fira-sans-bold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .fira-sans-extrabold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .fira-sans-black-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.side-bar{
+    margin: 0px 120px;
+}
+.heading{
+    background-color: rgba(198, 228, 214, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    border-radius: 15px;
+    border: none;
+    padding: 40px;
+    max-width: 1280;
+    margin-top: 60px;
+}
+.hero-description{
+    color: rgba(14, 14, 14, 1);
+    font-size: 56px;
+    margin-bottom: 20px;
+}
+.hero-letter{
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.btn-expo{
+    background-color: rgba(0, 106, 80, 1);
+    color: white;
+    padding: 17px 34px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+}
+.btn-expo:hover, .card-btn-1:hover, .card-btn-2:hover, .card-btn-3:hover, .news-btn:hover, .donete-tk-ac:hover, .donete-btn .donete-tk:hover, .done:hover{
+    background-color: rgb(109, 106, 158);
+}
+.ban-img{
+    height: 350px;
+    width: 400px;
+}
+.vision{
+    margin-top: 60px;
+}
+.vision-head{
+    font-size: 40px;
+    color: rgba(14, 14, 14, 1);
+    margin-bottom: 24px;
+}
+
+.vision-des{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+.cards{
+    display: flex;
+    gap: 24px;
+}
+.card-img{
+    width: 64px;
+    height: 64px;
+    margin-bottom: 32px;
+}
+.card-head{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+.card-des{
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 24px;
+}
+.card-1{
+    background-color: rgba(84, 144, 245, 0.2);
+    border-radius: 5px;
+    padding: 32px;
+}
+.card-2{
+    background-color: rgba(198, 228, 214, 1);
+    border-radius: 5px;
+    padding: 32px;
+}
+.card-3{
+    background-color: rgba(247, 235, 207, 1);
+    border-radius: 5px;
+    padding: 32px;
+}
+.card-btn-1{
+    background-color: rgba(84, 144, 245, 1);
+    padding: 11px 20px;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+.card-btn-2{
+    background-color: rgba(9, 161, 92, 1);
+    padding: 11px 20px;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+.card-btn-3{
+    background-color: rgba(255, 194, 57, 1);
+    padding: 11px 20px;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+.yunus-news{
+    border: solid 1px;
+    background-color: rgba(255, 255, 255, 1);
+    margin-top: 32px;
+    border-radius: 5px;
+    padding: 48px 24px;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-size: 64px 64px;
+}
+.yunus-say{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.8);
+    line-height: 24px;
+    margin-bottom: 12px;
+}
+.dr-yunus{
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 6px;
+}
+.yunus-part{
+    color: rgba(14, 14, 14, 0.6);
+    font-size: 16;
+    line-height: 24px;
+}
+.news{
+    margin: 60px 0px;
+}
+.news-head{
+    font-size: 40px;
+    color: rgba(14, 14, 14, 1);
+    margin-bottom: 24px;
+}
+.news.des{
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 32px;
+}
+.news-card{
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    margin-top: 32px;
+}
+.set-img{
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+    border: none;
+}
+.set-head{
+    font-size: 32px;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 12px;
+}
+.set-time{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+.time, .date{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    line-height: 24px;
+}
+.set-des{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+.news-btn{
+    background-color: rgba(0, 106, 80, 1);
+    padding: 13px 26px;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+.donete{
+    margin-top: 60px;
+}
+.donete-head{
+    color: rgba(14, 14, 14, 1);
+    font-size: 40px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+.donete-des{
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 32px;
+    color: rgba(14, 14, 14, 0.7);
+    text-align: center;
+}
+.donete-btn{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+.donete-btn .donete-tk{
+    padding: 40px;
+    background-color: #fff;
+    font-size: 40px;
+    color: rgba(14, 14, 14, 0.8);
+    border-radius: 5px;
+    border: none;
+}
+.donete-tk-ac{
+    padding: 40px;
+    background-color: rgba(198, 228, 214, 1);
+    font-size: 40px;
+    color: rgba(14, 14, 14, 0.8);
+    border-radius: 5px;
+    border: none;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+.box .Amount{
+    text-align: center;
+    padding: 20px 400px;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.3);
+    margin:20px 422px;
+    background-color: #fff;
+    border: none;
+}
+.done-btn{
+    display: flex;
+    justify-content: center;
+}
+.done{
+    background-color: rgba(0, 106, 80, 1);
+    color: white;
+    padding: 17px 34px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+}
+.footer{
+    margin-top: 60px;
+    margin-bottom: 120px;
+    background-color: rgba(198, 228, 214, 1);
+}
+.foot-head{
+    align-items: center;
+    margin: 80px 265px;
+    justify-content: center;
+    text-align: center;
+}
+.foot-heading{
+    font-size: 40px;
+    margin-top: 80px
+
+}
+.foot-des{
+    font-size: 16px;
+    line-height: 24px;
+    justify-content: center;
+    text-align: center;
+    padding: 16px 24px;
+}
+.last{
+    display: flex;
+    gap: 0px;
+
+}
+.last-box{
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.3);
+    margin:20px 20px;
+    background-color: #fff;
+    border: none;
+}
+.last-btn{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.jala{
+    display: flex;
+    gap: 0px;
+}
